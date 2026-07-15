@@ -190,3 +190,27 @@ NameError: name 'RAW_PATH' is not defined
 2026-07-15 08:44:22 | INFO | ======================================================================
 2026-07-15 08:44:22 | INFO | Task 2 Completed Successfully
 2026-07-15 08:44:22 | INFO | ======================================================================
+2026-07-15 08:53:24 | INFO | ======================================================================
+2026-07-15 08:53:24 | INFO | Starting Task 2 : Data Ingestion Phase
+2026-07-15 08:53:24 | INFO | ======================================================================
+2026-07-15 08:53:24 | INFO | Connecting to dynamic REST API catalog channel...
+2026-07-15 08:53:25 | INFO | Successfully fetched REST API data.
+2026-07-15 08:53:25 | INFO | Transitioning raw MovieLens data to landing zone staging layer.
+2026-07-15 08:53:25 | INFO | Staged asset: u.user
+2026-07-15 08:53:25 | INFO | Staged asset: u.item
+2026-07-15 08:53:25 | INFO | Staged asset: u.data
+2026-07-15 08:53:25 | INFO | ======================================================================
+2026-07-15 08:53:25 | INFO | Task 2 Completed Successfully
+2026-07-15 08:53:25 | INFO | ======================================================================
+2026-07-15 08:56:47 | INFO | ======================================================================
+2026-07-15 08:56:47 | INFO | Starting Task 2 : Data Ingestion Phase
+2026-07-15 08:56:47 | INFO | ======================================================================
+2026-07-15 08:56:47 | INFO | Connecting to dynamic REST API catalog channel...
+2026-07-15 08:56:47 | INFO | Successfully fetched REST API data.
+2026-07-15 08:56:47 | INFO | Transitioning raw MovieLens data to landing zone staging layer.
+2026-07-15 08:56:47 | INFO | Staged asset: u.user
+2026-07-15 08:56:47 | INFO | Staged asset: u.item
+2026-07-15 08:56:47 | INFO | Staged asset: u.data
+2026-07-15 08:56:47 | INFO | ======================================================================
+2026-07-15 08:56:47 | INFO | Task 2 Completed Successfully
+2026-07-15 08:56:47 | INFO | ======================================================================

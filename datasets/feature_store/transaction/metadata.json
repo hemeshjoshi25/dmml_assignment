@@ -1,7 +1,7 @@
 {
     "entity": "transaction",
     "version": "1.0",
-    "updated_at": "2026-07-15 08:44:22",
+    "updated_at": "2026-07-15 08:56:48",
     "schema": {
         "customer_id": "int64",
         "article_id": "int64",

@@ -77,3 +77,31 @@
 2026-07-15 08:44:22 | INFO | ======================================================================
 2026-07-15 08:44:22 | INFO | Task 3 Completed Successfully
 2026-07-15 08:44:22 | INFO | ======================================================================
+2026-07-15 08:53:25 | INFO | ======================================================================
+2026-07-15 08:53:25 | INFO | Starting Task 3 : Raw Data Storage & Delimiter Conversion
+2026-07-15 08:53:25 | INFO | ======================================================================
+2026-07-15 08:53:25 | INFO | Converting and partitioning: u.user -> E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-15\customers.csv
+2026-07-15 08:53:25 | INFO | Saved standardized CSV: customers.csv
+2026-07-15 08:53:25 | INFO | Converting and partitioning: u.item -> E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-15\articles.csv
+2026-07-15 08:53:25 | INFO | Saved standardized CSV: articles.csv
+2026-07-15 08:53:25 | INFO | Converting and partitioning: u.data -> E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-15\transactions.csv
+2026-07-15 08:53:25 | INFO | Saved standardized CSV: transactions.csv
+2026-07-15 08:53:25 | INFO | Converting and partitioning: products_api.csv -> E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\products_api\2026-07-15\products_api.csv
+2026-07-15 08:53:25 | INFO | Saved standardized CSV: products_api.csv
+2026-07-15 08:53:25 | INFO | ======================================================================
+2026-07-15 08:53:25 | INFO | Task 3 Completed Successfully
+2026-07-15 08:53:25 | INFO | ======================================================================
+2026-07-15 08:56:47 | INFO | ======================================================================
+2026-07-15 08:56:47 | INFO | Starting Task 3 : Raw Data Storage & Delimiter Conversion
+2026-07-15 08:56:47 | INFO | ======================================================================
+2026-07-15 08:56:47 | INFO | Converting and partitioning: u.user -> E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-15\customers.csv
+2026-07-15 08:56:47 | INFO | Saved standardized CSV: customers.csv
+2026-07-15 08:56:47 | INFO | Converting and partitioning: u.item -> E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-15\articles.csv
+2026-07-15 08:56:47 | INFO | Saved standardized CSV: articles.csv
+2026-07-15 08:56:47 | INFO | Converting and partitioning: u.data -> E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-15\transactions.csv
+2026-07-15 08:56:48 | INFO | Saved standardized CSV: transactions.csv
+2026-07-15 08:56:48 | INFO | Converting and partitioning: products_api.csv -> E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\products_api\2026-07-15\products_api.csv
+2026-07-15 08:56:48 | INFO | Saved standardized CSV: products_api.csv
+2026-07-15 08:56:48 | INFO | ======================================================================
+2026-07-15 08:56:48 | INFO | Task 3 Completed Successfully
+2026-07-15 08:56:48 | INFO | ======================================================================

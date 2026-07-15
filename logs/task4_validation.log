@@ -96,3 +96,23 @@
 2026-07-15 08:44:22 | INFO | ======================================================================
 2026-07-15 08:44:22 | INFO | Task 4 Completed Successfully
 2026-07-15 08:44:22 | INFO | ======================================================================
+2026-07-15 08:53:25 | INFO | ======================================================================
+2026-07-15 08:53:25 | INFO | Starting Task 4 : Data Validation Processing
+2026-07-15 08:53:25 | INFO | ======================================================================
+2026-07-15 08:53:25 | INFO | Validating dataset: customers from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-15\customers.csv
+2026-07-15 08:53:25 | INFO | Validating dataset: articles from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-15\articles.csv
+2026-07-15 08:53:25 | INFO | Validating dataset: transactions from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-15\transactions.csv
+2026-07-15 08:53:25 | INFO | Validation reports exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\data_validation_report.txt
+2026-07-15 08:53:25 | INFO | ======================================================================
+2026-07-15 08:53:25 | INFO | Task 4 Completed Successfully
+2026-07-15 08:53:25 | INFO | ======================================================================
+2026-07-15 08:56:48 | INFO | ======================================================================
+2026-07-15 08:56:48 | INFO | Starting Task 4 : Data Validation Processing
+2026-07-15 08:56:48 | INFO | ======================================================================
+2026-07-15 08:56:48 | INFO | Validating dataset: customers from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-15\customers.csv
+2026-07-15 08:56:48 | INFO | Validating dataset: articles from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-15\articles.csv
+2026-07-15 08:56:48 | INFO | Validating dataset: transactions from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-15\transactions.csv
+2026-07-15 08:56:48 | INFO | Validation reports exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\data_validation_report.txt
+2026-07-15 08:56:48 | INFO | ======================================================================
+2026-07-15 08:56:48 | INFO | Task 4 Completed Successfully
+2026-07-15 08:56:48 | INFO | ======================================================================
