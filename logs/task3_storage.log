@@ -1,0 +1,44 @@
+2026-07-12 16:29:54 | INFO | ======================================================================
+2026-07-12 16:29:54 | INFO | Starting Task 3 : Raw Data Storage
+2026-07-12 16:29:54 | INFO | ======================================================================
+2026-07-12 16:29:54 | INFO | customers.csv stored successfully.
+2026-07-12 16:29:54 | INFO | articles.csv stored successfully.
+2026-07-12 16:29:56 | INFO | transactions.csv stored successfully.
+2026-07-12 16:29:56 | INFO | ======================================================================
+2026-07-12 16:29:56 | INFO | Task 3 Completed Successfully
+2026-07-12 16:29:56 | INFO | ======================================================================
+2026-07-12 16:37:27 | INFO | ======================================================================
+2026-07-12 16:37:27 | INFO | Starting Task 3 : Raw Data Storage
+2026-07-12 16:37:27 | INFO | ======================================================================
+2026-07-12 16:37:28 | INFO | customers.csv stored successfully.
+2026-07-12 16:37:28 | INFO | articles.csv stored successfully.
+2026-07-12 16:37:28 | INFO | transactions.csv stored successfully.
+2026-07-12 16:37:28 | INFO | ======================================================================
+2026-07-12 16:37:28 | INFO | Task 3 Completed Successfully
+2026-07-12 16:37:28 | INFO | ======================================================================
+2026-07-12 17:19:50 | INFO | ======================================================================
+2026-07-12 17:19:50 | INFO | Starting Task 3 : Raw Data Storage
+2026-07-12 17:19:50 | INFO | ======================================================================
+2026-07-12 17:19:50 | INFO | customers.csv stored successfully.
+2026-07-12 17:19:50 | INFO | articles.csv stored successfully.
+2026-07-12 17:19:51 | INFO | transactions.csv stored successfully.
+2026-07-12 17:19:51 | INFO | ======================================================================
+2026-07-12 17:19:51 | INFO | Task 3 Completed Successfully
+2026-07-12 17:19:51 | INFO | ======================================================================
+2026-07-15 07:44:00 | INFO | ======================================================================
+2026-07-15 07:44:00 | INFO | Starting Task 3 : Raw Data Storage
+2026-07-15 07:44:00 | INFO | ======================================================================
+2026-07-15 07:44:01 | INFO | customers.csv stored successfully.
+2026-07-15 07:44:01 | INFO | articles.csv stored successfully.
+2026-07-15 07:44:01 | ERROR | transactions.csvproducts_api.csv not found.
+2026-07-15 07:44:01 | ERROR | Critical error storing dataset transactions.csvproducts_api.csv inside partitioned directory structures: transactions.csvproducts_api.csv
+2026-07-15 07:44:46 | INFO | ======================================================================
+2026-07-15 07:44:46 | INFO | Starting Task 3 : Raw Data Storage
+2026-07-15 07:44:46 | INFO | ======================================================================
+2026-07-15 07:44:46 | INFO | customers.csv stored successfully.
+2026-07-15 07:44:46 | INFO | articles.csv stored successfully.
+2026-07-15 07:44:48 | INFO | transactions.csv stored successfully.
+2026-07-15 07:44:48 | INFO | products_api.csv stored successfully.
+2026-07-15 07:44:48 | INFO | ======================================================================
+2026-07-15 07:44:48 | INFO | Task 3 Completed Successfully
+2026-07-15 07:44:48 | INFO | ======================================================================

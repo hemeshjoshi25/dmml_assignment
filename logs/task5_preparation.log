@@ -1,0 +1,101 @@
+2026-07-12 16:40:59 | INFO | ======================================================================
+2026-07-12 16:40:59 | INFO | Starting Task 5 : Data Preparation
+2026-07-12 16:40:59 | INFO | ======================================================================
+2026-07-12 16:40:59 | INFO | Processing Customers Dataset
+2026-07-12 16:41:06 | INFO | Customers Processed | Shape : (1371980, 7)
+2026-07-12 16:41:06 | INFO | Processing Articles Dataset
+2026-07-12 16:41:07 | INFO | Articles Processed | Shape : (105542, 25)
+2026-07-12 16:41:07 | INFO | Processing Transactions Dataset
+2026-07-12 16:41:35 | INFO | Transactions Processed | Shape : (6647797, 5)
+2026-07-12 16:41:35 | INFO | ======================================================================
+2026-07-12 16:41:35 | INFO | Task 5 Completed Successfully
+2026-07-12 16:41:35 | INFO | ======================================================================
+2026-07-12 16:42:30 | INFO | ======================================================================
+2026-07-12 16:42:30 | INFO | Starting Task 5 : Data Preparation
+2026-07-12 16:42:30 | INFO | ======================================================================
+2026-07-12 16:42:30 | INFO | Processing Customers Dataset
+2026-07-12 16:42:37 | INFO | Customers Processed | Shape : (1371980, 7)
+2026-07-12 16:42:37 | INFO | Processing Articles Dataset
+2026-07-12 16:42:39 | INFO | Articles Processed | Shape : (105542, 25)
+2026-07-12 16:42:39 | INFO | Processing Transactions Dataset
+2026-07-12 16:43:06 | INFO | Transactions Processed | Shape : (6647797, 5)
+2026-07-12 16:43:06 | INFO | ======================================================================
+2026-07-12 16:43:06 | INFO | Task 5 Completed Successfully
+2026-07-12 16:43:06 | INFO | ======================================================================
+2026-07-12 17:22:01 | INFO | ======================================================================
+2026-07-12 17:22:01 | INFO | Starting Task 5 : Data Preparation
+2026-07-12 17:22:01 | INFO | ======================================================================
+2026-07-12 17:22:01 | INFO | Processing Customers Dataset
+2026-07-12 17:22:09 | INFO | Customers Processed | Shape : (1371980, 7)
+2026-07-12 17:22:09 | INFO | Processing Articles Dataset
+2026-07-12 17:22:10 | INFO | Articles Processed | Shape : (105542, 25)
+2026-07-12 17:22:10 | INFO | Processing Transactions Dataset
+2026-07-12 17:24:01 | INFO | Transactions Processed | Shape : (25458900, 5)
+2026-07-12 17:24:01 | INFO | ======================================================================
+2026-07-12 17:24:01 | INFO | Task 5 Completed Successfully
+2026-07-12 17:24:01 | INFO | ======================================================================
+2026-07-15 07:48:54 | INFO | ======================================================================
+2026-07-15 07:48:54 | INFO | Starting Task 5 : Data Preparation & Automated EDA
+2026-07-15 07:48:54 | INFO | ======================================================================
+2026-07-15 07:48:54 | INFO | Processing Customers Dataset
+2026-07-15 07:49:03 | INFO | Customers Processed | Shape : (1371980, 7)
+2026-07-15 07:49:03 | INFO | Processing Articles Dataset
+2026-07-15 07:49:05 | INFO | Articles Processed | Shape : (105542, 25)
+2026-07-15 07:49:05 | INFO | Processing Transactions Dataset
+2026-07-15 07:51:17 | INFO | Transactions Processed | Shape : (25458900, 5)
+2026-07-15 07:51:17 | INFO | Generating and saving structural EDA visualization artifacts.
+2026-07-15 07:51:31 | INFO | Interaction Matrix Sparsity Calculated: 99.9794%
+2026-07-15 07:51:31 | INFO | All visual EDA summaries successfully written to reports directory layers.
+2026-07-15 07:51:31 | INFO | ======================================================================
+2026-07-15 07:51:31 | INFO | Task 5 Completed Successfully
+2026-07-15 07:51:31 | INFO | ======================================================================
+2026-07-15 08:35:01 | INFO | ======================================================================
+2026-07-15 08:35:01 | INFO | Starting Task 5 : Data Preparation & EDA
+2026-07-15 08:35:01 | INFO | ======================================================================
+2026-07-15 08:35:01 | INFO | Processing Customers Dataset
+2026-07-15 08:35:01 | INFO | Processing Movie Catalog Articles
+2026-07-15 08:35:02 | INFO | Processing Transactions Dataset
+2026-07-15 08:35:02 | INFO | Generating and saving MovieLens EDA plots.
+2026-07-15 08:35:02 | INFO | ======================================================================
+2026-07-15 08:35:02 | INFO | Task 5 Completed Successfully
+2026-07-15 08:35:02 | INFO | ======================================================================
+2026-07-15 08:37:36 | INFO | ======================================================================
+2026-07-15 08:37:36 | INFO | Starting Task 5 : Data Preparation & EDA
+2026-07-15 08:37:36 | INFO | ======================================================================
+2026-07-15 08:37:36 | INFO | Processing Customers Dataset
+2026-07-15 08:37:36 | INFO | Processing Movie Catalog Articles
+2026-07-15 08:37:36 | INFO | Processing Transactions Dataset
+2026-07-15 08:37:36 | INFO | Generating and saving MovieLens EDA plots.
+2026-07-15 08:37:37 | INFO | ======================================================================
+2026-07-15 08:37:37 | INFO | Task 5 Completed Successfully
+2026-07-15 08:37:37 | INFO | ======================================================================
+2026-07-15 08:39:21 | INFO | ======================================================================
+2026-07-15 08:39:21 | INFO | Starting Task 5 : Data Preparation & EDA
+2026-07-15 08:39:21 | INFO | ======================================================================
+2026-07-15 08:39:21 | INFO | Processing Customers Dataset
+2026-07-15 08:39:21 | INFO | Processing Movie Catalog Articles
+2026-07-15 08:39:21 | INFO | Processing Transactions Dataset
+2026-07-15 08:39:21 | INFO | Generating and saving MovieLens EDA plots.
+2026-07-15 08:39:21 | INFO | ======================================================================
+2026-07-15 08:39:21 | INFO | Task 5 Completed Successfully
+2026-07-15 08:39:21 | INFO | ======================================================================
+2026-07-15 08:41:13 | INFO | ======================================================================
+2026-07-15 08:41:13 | INFO | Starting Task 5 : Data Preparation & EDA
+2026-07-15 08:41:13 | INFO | ======================================================================
+2026-07-15 08:41:13 | INFO | Processing Customers Dataset
+2026-07-15 08:41:13 | INFO | Processing Movie Catalog Articles
+2026-07-15 08:41:13 | INFO | Processing Transactions Dataset
+2026-07-15 08:41:13 | INFO | Generating and saving MovieLens EDA plots.
+2026-07-15 08:41:14 | INFO | ======================================================================
+2026-07-15 08:41:14 | INFO | Task 5 Completed Successfully
+2026-07-15 08:41:14 | INFO | ======================================================================
+2026-07-15 08:44:22 | INFO | ======================================================================
+2026-07-15 08:44:22 | INFO | Starting Task 5 : Data Preparation & EDA
+2026-07-15 08:44:22 | INFO | ======================================================================
+2026-07-15 08:44:22 | INFO | Processing Customers Dataset
+2026-07-15 08:44:22 | INFO | Processing Movie Catalog Articles
+2026-07-15 08:44:22 | INFO | Processing Transactions Dataset
+2026-07-15 08:44:22 | INFO | Generating and saving MovieLens EDA plots.
+2026-07-15 08:44:22 | INFO | ======================================================================
+2026-07-15 08:44:22 | INFO | Task 5 Completed Successfully
+2026-07-15 08:44:22 | INFO | ======================================================================

@@ -1,0 +1,12 @@
+{
+    "entity": "customer",
+    "version": "1.0",
+    "updated_at": "2026-07-15 08:44:22",
+    "schema": {
+        "customer_id": "int64",
+        "age_group": "str",
+        "is_student": "int64",
+        "user_total_transactions": "int64"
+    },
+    "row_count": 943
+}

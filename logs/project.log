@@ -1,0 +1,13 @@
+2026-07-12 12:03:41 | INFO | ======================================================================
+2026-07-12 12:03:41 | INFO | Starting Task 2 : Data Collection & Ingestion
+2026-07-12 12:03:41 | INFO | ======================================================================
+2026-07-12 12:03:41 | INFO | Loading customers.csv
+2026-07-12 12:03:44 | INFO | customers.csv loaded successfully | Shape: (1371980, 7)
+2026-07-12 12:03:44 | INFO | Loading articles.csv
+2026-07-12 12:03:44 | INFO | articles.csv loaded successfully | Shape: (105542, 25)
+2026-07-12 12:03:44 | INFO | Loading transactions_train.csv
+2026-07-12 12:04:08 | INFO | transactions_train.csv loaded successfully | Shape: (28127475, 5)
+2026-07-12 12:05:23 | INFO | Datasets successfully saved to E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\extracted
+2026-07-12 12:05:23 | INFO | ======================================================================
+2026-07-12 12:05:23 | INFO | Task 2 Completed Successfully
+2026-07-12 12:05:23 | INFO | ======================================================================

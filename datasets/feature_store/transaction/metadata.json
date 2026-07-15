@@ -1,0 +1,13 @@
+{
+    "entity": "transaction",
+    "version": "1.0",
+    "updated_at": "2026-07-15 08:44:22",
+    "schema": {
+        "customer_id": "int64",
+        "article_id": "int64",
+        "rating": "int64",
+        "purchase_year": "int64",
+        "purchase_month": "int64"
+    },
+    "row_count": 100000
+}

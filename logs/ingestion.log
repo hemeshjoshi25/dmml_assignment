@@ -1,0 +1,27 @@
+2026-07-12 11:38:22,852 | INFO | Loading customers
+2026-07-12 11:38:25,386 | INFO | Customers Loaded : (1371980, 7)
+2026-07-12 11:38:25,387 | INFO | Loading articles
+2026-07-12 11:38:25,917 | INFO | Articles Loaded : (105542, 25)
+2026-07-12 11:38:25,917 | INFO | Loading transactions
+2026-07-12 11:38:49,786 | INFO | Transactions Loaded : (28127475, 5)
+2026-07-12 11:39:05,004 | INFO | Loading customers
+2026-07-12 11:39:07,528 | INFO | Customers Loaded : (1371980, 7)
+2026-07-12 11:39:07,528 | INFO | Loading articles
+2026-07-12 11:39:07,963 | INFO | Articles Loaded : (105542, 25)
+2026-07-12 11:39:07,963 | INFO | Loading transactions
+2026-07-12 11:39:31,451 | INFO | Transactions Loaded : (28127475, 5)
+2026-07-12 11:40:47,345 | INFO | Files Saved Successfully
+2026-07-12 11:40:47,345 | INFO | Task 2 Completed Successfully
+2026-07-12 11:44:52 | INFO | ============================================================
+2026-07-12 11:44:52 | INFO | Starting Data Ingestion Pipeline
+2026-07-12 11:44:52 | INFO | ============================================================
+2026-07-12 11:44:52 | INFO | Loading customers dataset...
+2026-07-12 11:44:54 | INFO | Customers loaded successfully | Shape: (1371980, 7)
+2026-07-12 11:44:54 | INFO | Loading articles dataset...
+2026-07-12 11:44:55 | INFO | Articles loaded successfully | Shape: (105542, 25)
+2026-07-12 11:44:55 | INFO | Loading transactions dataset...
+2026-07-12 11:45:19 | INFO | Transactions loaded successfully | Shape: (28127475, 5)
+2026-07-12 11:46:36 | INFO | All datasets saved successfully.
+2026-07-12 11:46:36 | INFO | ============================================================
+2026-07-12 11:46:36 | INFO | Task 2 Completed Successfully
+2026-07-12 11:46:36 | INFO | ============================================================

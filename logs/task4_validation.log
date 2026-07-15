@@ -1,0 +1,98 @@
+2026-07-12 16:39:17 | INFO | ======================================================================
+2026-07-12 16:39:17 | INFO | Starting Task 4
+2026-07-12 16:39:17 | INFO | ======================================================================
+2026-07-12 16:39:17 | INFO | Loading customers
+2026-07-12 16:39:21 | INFO | customers validation report generated.
+2026-07-12 16:39:25 | INFO | customers saved successfully.
+2026-07-12 16:39:25 | INFO | Loading articles
+2026-07-12 16:39:26 | INFO | articles validation report generated.
+2026-07-12 16:39:27 | INFO | articles saved successfully.
+2026-07-12 16:39:27 | INFO | Loading transactions
+2026-07-12 16:39:37 | INFO | transactions validation report generated.
+2026-07-12 16:39:57 | INFO | transactions saved successfully.
+2026-07-12 16:39:57 | INFO | ======================================================================
+2026-07-12 16:39:57 | INFO | Task 4 Completed Successfully
+2026-07-12 16:39:57 | INFO | ======================================================================
+2026-07-12 17:19:51 | INFO | ======================================================================
+2026-07-12 17:19:51 | INFO | Starting Task 4
+2026-07-12 17:19:51 | INFO | ======================================================================
+2026-07-12 17:19:51 | INFO | Loading customers
+2026-07-12 17:19:55 | INFO | customers validation report generated.
+2026-07-12 17:19:59 | INFO | customers saved successfully.
+2026-07-12 17:19:59 | INFO | Loading articles
+2026-07-12 17:20:00 | INFO | articles validation report generated.
+2026-07-12 17:20:00 | INFO | articles saved successfully.
+2026-07-12 17:20:00 | INFO | Loading transactions
+2026-07-12 17:20:43 | INFO | transactions validation report generated.
+2026-07-12 17:22:01 | INFO | transactions saved successfully.
+2026-07-12 17:22:01 | INFO | ======================================================================
+2026-07-12 17:22:01 | INFO | Task 4 Completed Successfully
+2026-07-12 17:22:01 | INFO | ======================================================================
+2026-07-15 07:44:54 | INFO | ======================================================================
+2026-07-15 07:44:54 | INFO | Starting Task 4 : Data Validation & Automated Profiling
+2026-07-15 07:44:54 | INFO | ======================================================================
+2026-07-15 07:44:54 | INFO | Loading customers from Raw Storage Layer path: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-15\customers.csv
+2026-07-15 07:44:58 | INFO | customers validation report generated successfully.
+2026-07-15 07:45:03 | INFO | customers pushed to validated production folder zones.
+2026-07-15 07:45:04 | INFO | Loading articles from Raw Storage Layer path: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-15\articles.csv
+2026-07-15 07:45:05 | INFO | articles validation report generated successfully.
+2026-07-15 07:45:06 | INFO | articles pushed to validated production folder zones.
+2026-07-15 07:45:06 | INFO | Loading transactions from Raw Storage Layer path: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-15\transactions.csv
+2026-07-15 07:45:57 | INFO | transactions validation report generated successfully.
+2026-07-15 07:47:29 | INFO | transactions pushed to validated production folder zones.
+2026-07-15 07:47:29 | INFO | Loading products_api from Raw Storage Layer path: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\products_api\2026-07-15\products_api.csv
+2026-07-15 07:47:29 | INFO | products_api validation report generated successfully.
+2026-07-15 07:47:29 | INFO | products_api pushed to validated production folder zones.
+2026-07-15 07:47:29 | INFO | ======================================================================
+2026-07-15 07:47:29 | INFO | Task 4 Completed Successfully
+2026-07-15 07:47:29 | INFO | ======================================================================
+2026-07-15 08:34:48 | INFO | ======================================================================
+2026-07-15 08:34:48 | INFO | Starting Task 4 : Data Validation Processing
+2026-07-15 08:34:48 | INFO | ======================================================================
+2026-07-15 08:34:48 | INFO | Validating dataset: customers from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-15\customers.csv
+2026-07-15 08:34:48 | INFO | Validating dataset: articles from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-15\articles.csv
+2026-07-15 08:34:48 | INFO | Validating dataset: transactions from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-15\transactions.csv
+2026-07-15 08:34:48 | INFO | Validation reports exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\data_validation_report.txt
+2026-07-15 08:34:48 | INFO | ======================================================================
+2026-07-15 08:34:48 | INFO | Task 4 Completed Successfully
+2026-07-15 08:34:48 | INFO | ======================================================================
+2026-07-15 08:37:36 | INFO | ======================================================================
+2026-07-15 08:37:36 | INFO | Starting Task 4 : Data Validation Processing
+2026-07-15 08:37:36 | INFO | ======================================================================
+2026-07-15 08:37:36 | INFO | Validating dataset: customers from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-15\customers.csv
+2026-07-15 08:37:36 | INFO | Validating dataset: articles from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-15\articles.csv
+2026-07-15 08:37:36 | INFO | Validating dataset: transactions from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-15\transactions.csv
+2026-07-15 08:37:36 | INFO | Validation reports exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\data_validation_report.txt
+2026-07-15 08:37:36 | INFO | ======================================================================
+2026-07-15 08:37:36 | INFO | Task 4 Completed Successfully
+2026-07-15 08:37:36 | INFO | ======================================================================
+2026-07-15 08:39:21 | INFO | ======================================================================
+2026-07-15 08:39:21 | INFO | Starting Task 4 : Data Validation Processing
+2026-07-15 08:39:21 | INFO | ======================================================================
+2026-07-15 08:39:21 | INFO | Validating dataset: customers from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-15\customers.csv
+2026-07-15 08:39:21 | INFO | Validating dataset: articles from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-15\articles.csv
+2026-07-15 08:39:21 | INFO | Validating dataset: transactions from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-15\transactions.csv
+2026-07-15 08:39:21 | INFO | Validation reports exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\data_validation_report.txt
+2026-07-15 08:39:21 | INFO | ======================================================================
+2026-07-15 08:39:21 | INFO | Task 4 Completed Successfully
+2026-07-15 08:39:21 | INFO | ======================================================================
+2026-07-15 08:41:13 | INFO | ======================================================================
+2026-07-15 08:41:13 | INFO | Starting Task 4 : Data Validation Processing
+2026-07-15 08:41:13 | INFO | ======================================================================
+2026-07-15 08:41:13 | INFO | Validating dataset: customers from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-15\customers.csv
+2026-07-15 08:41:13 | INFO | Validating dataset: articles from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-15\articles.csv
+2026-07-15 08:41:13 | INFO | Validating dataset: transactions from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-15\transactions.csv
+2026-07-15 08:41:13 | INFO | Validation reports exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\data_validation_report.txt
+2026-07-15 08:41:13 | INFO | ======================================================================
+2026-07-15 08:41:13 | INFO | Task 4 Completed Successfully
+2026-07-15 08:41:13 | INFO | ======================================================================
+2026-07-15 08:44:22 | INFO | ======================================================================
+2026-07-15 08:44:22 | INFO | Starting Task 4 : Data Validation Processing
+2026-07-15 08:44:22 | INFO | ======================================================================
+2026-07-15 08:44:22 | INFO | Validating dataset: customers from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-15\customers.csv
+2026-07-15 08:44:22 | INFO | Validating dataset: articles from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-15\articles.csv
+2026-07-15 08:44:22 | INFO | Validating dataset: transactions from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-15\transactions.csv
+2026-07-15 08:44:22 | INFO | Validation reports exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\data_validation_report.txt
+2026-07-15 08:44:22 | INFO | ======================================================================
+2026-07-15 08:44:22 | INFO | Task 4 Completed Successfully
+2026-07-15 08:44:22 | INFO | ======================================================================

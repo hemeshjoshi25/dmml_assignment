@@ -1,0 +1,17 @@
+
+--- Validation Report for: customers ---
+Dataset Shape: (943, 5)
+Missing Values: {'customer_id': 0, 'age': 0, 'gender': 0, 'occupation': 0, 'zip_code': 0}
+  - [Range Check] Ages out of 0-120 limits: 0 flags.
+Total Rules Violations: 0
+
+--- Validation Report for: articles ---
+Dataset Shape: (1682, 24)
+Missing Values: {'article_id': 0, 'movie_title': 0, 'release_date': 1, 'video_release_date': 1682, 'IMDb_URL': 3, 'genre_0': 0, 'genre_1': 0, 'genre_2': 0, 'genre_3': 0, 'genre_4': 0, 'genre_5': 0, 'genre_6': 0, 'genre_7': 0, 'genre_8': 0, 'genre_9': 0, 'genre_10': 0, 'genre_11': 0, 'genre_12': 0, 'genre_13': 0, 'genre_14': 0, 'genre_15': 0, 'genre_16': 0, 'genre_17': 0, 'genre_18': 0}
+Total Rules Violations: 0
+
+--- Validation Report for: transactions ---
+Dataset Shape: (100000, 4)
+Missing Values: {'customer_id': 0, 'article_id': 0, 'rating': 0, 'timestamp': 0}
+  - [Range Check] Ratings out of 1-5 limits: 0 flags.
+Total Rules Violations: 0

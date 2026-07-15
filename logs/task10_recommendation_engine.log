@@ -1,0 +1,101 @@
+2026-07-12 17:03:31 | INFO | ======================================================================
+2026-07-12 17:03:31 | INFO | Starting Task 10 : Recommendation Engine
+2026-07-12 17:03:31 | INFO | ======================================================================
+2026-07-12 17:03:31 | INFO | Loading Recommendation Model
+2026-07-12 17:03:44 | INFO | Recommendations saved successfully.
+2026-07-12 17:03:44 | INFO | ======================================================================
+2026-07-12 17:03:44 | INFO | Task 10 Completed Successfully
+2026-07-12 17:03:44 | INFO | ======================================================================
+2026-07-12 17:04:08 | INFO | ======================================================================
+2026-07-12 17:04:08 | INFO | Starting Task 10 : Recommendation Engine
+2026-07-12 17:04:08 | INFO | ======================================================================
+2026-07-12 17:04:08 | INFO | Loading Recommendation Model
+2026-07-12 17:04:19 | INFO | Recommendations saved successfully.
+2026-07-12 17:04:19 | INFO | ======================================================================
+2026-07-12 17:04:19 | INFO | Task 10 Completed Successfully
+2026-07-12 17:04:19 | INFO | ======================================================================
+2026-07-12 17:06:04 | INFO | ======================================================================
+2026-07-12 17:06:04 | INFO | Starting Task 10 : Recommendation Engine
+2026-07-12 17:06:04 | INFO | ======================================================================
+2026-07-12 17:06:04 | INFO | Generating recommendations.
+2026-07-12 17:06:04 | INFO | Loading trained recommendation model.
+2026-07-12 17:06:07 | INFO | Loading feature datasets.
+2026-07-12 17:06:58 | INFO | ======================================================================
+2026-07-12 17:06:58 | INFO | Starting Task 10 : Recommendation Engine
+2026-07-12 17:06:58 | INFO | ======================================================================
+2026-07-12 17:06:58 | INFO | Loading model...
+2026-07-12 17:06:58 | INFO | Loading trained recommendation model.
+2026-07-12 17:07:00 | INFO | Loading feature datasets.
+2026-07-12 17:07:07 | INFO | Finding top candidate products...
+2026-07-12 17:07:07 | INFO | Candidate products selected : 1000
+2026-07-12 17:07:08 | INFO | Processed 0/737272 customers
+2026-07-12 17:12:43 | INFO | Processed 1000/737272 customers
+2026-07-12 17:14:33 | INFO | ======================================================================
+2026-07-12 17:14:33 | INFO | Starting Task 10 : Recommendation Engine
+2026-07-12 17:14:33 | INFO | ======================================================================
+2026-07-12 17:14:33 | INFO | Loading model...
+2026-07-12 17:14:33 | INFO | Loading trained recommendation model.
+2026-07-12 17:14:35 | INFO | Loading feature datasets.
+2026-07-12 17:14:42 | INFO | Finding top candidate products...
+2026-07-12 17:14:42 | INFO | Candidate products selected : 10
+2026-07-12 17:14:43 | INFO | Processed 0/737272 customers
+2026-07-12 17:15:43 | INFO | ======================================================================
+2026-07-12 17:15:43 | INFO | Starting Task 10 : Recommendation Engine
+2026-07-12 17:15:43 | INFO | ======================================================================
+2026-07-12 17:15:43 | INFO | Loading model...
+2026-07-12 17:15:43 | INFO | Loading trained recommendation model.
+2026-07-12 17:15:45 | INFO | Loading feature datasets.
+2026-07-12 17:39:17 | INFO | ======================================================================
+2026-07-12 17:39:17 | INFO | Starting Task 10 : Recommendation Engine
+2026-07-12 17:39:17 | INFO | ======================================================================
+2026-07-12 17:39:17 | INFO | Loading model...
+2026-07-12 17:39:17 | INFO | Loading trained recommendation model.
+2026-07-12 17:39:27 | INFO | Loading feature datasets.
+2026-07-12 17:39:56 | INFO | Finding top candidate products...
+2026-07-12 17:39:57 | INFO | Candidate products selected : 10
+2026-07-12 17:40:02 | INFO | Processed 0/10 customers
+2026-07-12 17:40:14 | INFO | Recommendations generated : (92, 8)
+2026-07-12 17:40:17 | INFO | Recommendations saved to E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\recommendations.csv
+2026-07-12 17:40:17 | INFO | ======================================================================
+2026-07-12 17:40:17 | INFO | Task 10 Completed Successfully
+2026-07-12 17:40:17 | INFO | ======================================================================
+2026-07-15 08:36:02 | INFO | ======================================================================
+2026-07-15 08:36:02 | INFO | Starting Task 10 : Collaborative Filtering Inference Engine
+2026-07-15 08:36:02 | INFO | ======================================================================
+2026-07-15 08:36:03 | INFO | Generating Top-10 movie recommendations for sample users.
+2026-07-15 08:36:03 | INFO | Recommendations exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\recommendations.csv
+2026-07-15 08:36:03 | INFO | ======================================================================
+2026-07-15 08:36:03 | INFO | Task 10 Completed Successfully
+2026-07-15 08:36:03 | INFO | ======================================================================
+2026-07-15 08:37:22 | INFO | ======================================================================
+2026-07-15 08:37:22 | INFO | Starting Task 10 : Collaborative Filtering Inference Engine
+2026-07-15 08:37:22 | INFO | ======================================================================
+2026-07-15 08:37:23 | INFO | Generating Top-10 movie recommendations for sample users.
+2026-07-15 08:37:23 | INFO | Recommendations exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\recommendations.csv
+2026-07-15 08:37:23 | INFO | ======================================================================
+2026-07-15 08:37:23 | INFO | Task 10 Completed Successfully
+2026-07-15 08:37:23 | INFO | ======================================================================
+2026-07-15 08:39:23 | INFO | ======================================================================
+2026-07-15 08:39:23 | INFO | Starting Task 10 : Collaborative Filtering Inference Engine
+2026-07-15 08:39:23 | INFO | ======================================================================
+2026-07-15 08:39:23 | INFO | Generating Top-10 movie recommendations for sample users.
+2026-07-15 08:39:23 | INFO | Recommendations exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\recommendations.csv
+2026-07-15 08:39:23 | INFO | ======================================================================
+2026-07-15 08:39:23 | INFO | Task 10 Completed Successfully
+2026-07-15 08:39:23 | INFO | ======================================================================
+2026-07-15 08:41:15 | INFO | ======================================================================
+2026-07-15 08:41:15 | INFO | Starting Task 10 : Collaborative Filtering Inference Engine
+2026-07-15 08:41:15 | INFO | ======================================================================
+2026-07-15 08:41:15 | INFO | Generating Top-10 movie recommendations for sample users.
+2026-07-15 08:41:16 | INFO | Recommendations exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\recommendations.csv
+2026-07-15 08:41:16 | INFO | ======================================================================
+2026-07-15 08:41:16 | INFO | Task 10 Completed Successfully
+2026-07-15 08:41:16 | INFO | ======================================================================
+2026-07-15 08:44:24 | INFO | ======================================================================
+2026-07-15 08:44:24 | INFO | Starting Task 10 : Collaborative Filtering Inference Engine
+2026-07-15 08:44:24 | INFO | ======================================================================
+2026-07-15 08:44:24 | INFO | Generating Top-10 movie recommendations for sample users.
+2026-07-15 08:44:24 | INFO | Recommendations exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\recommendations.csv
+2026-07-15 08:44:24 | INFO | ======================================================================
+2026-07-15 08:44:24 | INFO | Task 10 Completed Successfully
+2026-07-15 08:44:24 | INFO | ======================================================================

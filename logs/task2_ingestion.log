@@ -1,0 +1,192 @@
+2026-07-12 12:24:21 | INFO | ======================================================================
+2026-07-12 12:24:21 | INFO | Starting Task 2 : Data Collection & Ingestion
+2026-07-12 12:24:21 | INFO | ======================================================================
+2026-07-12 12:24:21 | INFO | Loading customers.csv
+2026-07-12 12:24:24 | INFO | customers.csv loaded successfully | Shape: (1371980, 7)
+2026-07-12 12:24:24 | INFO | Loading articles.csv
+2026-07-12 12:24:24 | INFO | articles.csv loaded successfully | Shape: (105542, 25)
+2026-07-12 12:24:24 | INFO | Loading transactions_train.csv
+2026-07-12 12:24:50 | INFO | transactions_train.csv loaded successfully | Shape: (28127475, 5)
+2026-07-12 12:26:08 | INFO | Datasets successfully saved to E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\extracted
+2026-07-12 12:26:08 | INFO | ======================================================================
+2026-07-12 12:26:08 | INFO | Task 2 Completed Successfully
+2026-07-12 12:26:08 | INFO | ======================================================================
+2026-07-12 16:35:52 | INFO | ======================================================================
+2026-07-12 16:35:52 | INFO | Starting Task 2 : Data Collection & Ingestion
+2026-07-12 16:35:52 | INFO | ======================================================================
+2026-07-12 16:36:32 | INFO | ======================================================================
+2026-07-12 16:36:32 | INFO | Starting Task 2 : Data Collection & Ingestion
+2026-07-12 16:36:32 | INFO | ======================================================================
+2026-07-12 16:36:32 | INFO | Loading customers.csv
+2026-07-12 16:36:34 | INFO | customers.csv loaded successfully | Shape: (1371980, 7)
+2026-07-12 16:36:34 | INFO | Loading articles.csv
+2026-07-12 16:36:34 | INFO | articles.csv loaded successfully | Shape: (105542, 25)
+2026-07-12 16:36:34 | INFO | Loading transactions_train.csv
+2026-07-12 16:36:57 | INFO | transactions_train.csv loaded successfully | Shape: (28127475, 5)
+2026-07-12 16:38:20 | INFO | Datasets successfully saved to E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\extracted
+2026-07-12 16:38:20 | INFO | ======================================================================
+2026-07-12 16:38:20 | INFO | Task 2 Completed Successfully
+2026-07-12 16:38:20 | INFO | ======================================================================
+2026-07-12 17:16:15 | INFO | ================================================================================
+2026-07-12 17:16:15 | INFO | Task 2 : Data Collection & Ingestion Started
+2026-07-12 17:16:15 | INFO | ================================================================================
+2026-07-12 17:16:15 | INFO | Loading customers.csv
+2026-07-12 17:16:15 | ERROR | [Errno 2] No such file or directory: 'E:\\BITS WILP MTech AI and ML\\BITS M Tech Sem 2\\DMML Assignment\\datasets\\raw\\customers.csv'
+Traceback (most recent call last):
+  File "E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\Task2_Data_Ingestion\ingestion.py", line 55, in load_customers
+    customers = pd.read_csv(file_path)
+  File "C:\Users\Lenovo\AppData\Roaming\Python\Python314\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Lenovo\AppData\Roaming\Python\Python314\site-packages\pandas\io\parsers\readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Lenovo\AppData\Roaming\Python\Python314\site-packages\pandas\io\parsers\readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Roaming\Python\Python314\site-packages\pandas\io\parsers\readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Lenovo\AppData\Roaming\Python\Python314\site-packages\pandas\io\common.py", line 930, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\BITS WILP MTech AI and ML\\BITS M Tech Sem 2\\DMML Assignment\\datasets\\raw\\customers.csv'
+2026-07-12 17:17:33 | INFO | ================================================================================
+2026-07-12 17:17:33 | INFO | Task 2 : Data Collection & Ingestion Started
+2026-07-12 17:17:33 | INFO | ================================================================================
+2026-07-12 17:17:33 | ERROR | name 'RAW_PATH' is not defined
+Traceback (most recent call last):
+  File "E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\Task2_Data_Ingestion\ingestion.py", line 51, in load_customers
+    file_path = RAW_PATH / "customers.csv"
+                ^^^^^^^^
+NameError: name 'RAW_PATH' is not defined
+2026-07-12 17:17:44 | INFO | ================================================================================
+2026-07-12 17:17:44 | INFO | Task 2 : Data Collection & Ingestion Started
+2026-07-12 17:17:44 | INFO | ================================================================================
+2026-07-12 17:17:44 | INFO | Loading customers.csv
+2026-07-12 17:17:47 | INFO | Customers Loaded Successfully | Shape : (1371980, 7)
+2026-07-12 17:17:47 | ERROR | name 'RAW_PATH' is not defined
+Traceback (most recent call last):
+  File "E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\Task2_Data_Ingestion\ingestion.py", line 75, in load_articles
+    file_path = RAW_PATH / "articles.csv"
+                ^^^^^^^^
+NameError: name 'RAW_PATH' is not defined
+2026-07-12 17:18:08 | INFO | ================================================================================
+2026-07-12 17:18:08 | INFO | Task 2 : Data Collection & Ingestion Started
+2026-07-12 17:18:08 | INFO | ================================================================================
+2026-07-12 17:18:08 | INFO | Loading customers.csv
+2026-07-12 17:18:10 | INFO | Customers Loaded Successfully | Shape : (1371980, 7)
+2026-07-12 17:18:10 | INFO | Loading articles.csv
+2026-07-12 17:18:11 | INFO | Articles Loaded Successfully | Shape : (105542, 25)
+2026-07-12 17:18:11 | INFO | Loading transactions_train.csv
+2026-07-12 17:18:34 | INFO | Transactions Loaded Successfully | Shape : (28127475, 5)
+2026-07-12 17:18:34 | INFO | Fetching Product Data From REST API
+2026-07-12 17:18:36 | INFO | REST API Success | Shape : (20, 7)
+2026-07-12 17:18:36 | INFO | Saving Extracted Files...
+2026-07-12 17:19:49 | INFO | All datasets saved successfully.
+2026-07-12 17:19:49 | INFO | ================================================================================
+2026-07-12 17:19:49 | INFO | Task 2 Completed Successfully
+2026-07-12 17:19:49 | INFO | ================================================================================
+2026-07-15 07:41:32 | INFO | ================================================================================
+2026-07-15 07:41:32 | INFO | Task 2 : Data Collection & Ingestion Started
+2026-07-15 07:41:32 | INFO | ================================================================================
+2026-07-15 07:41:32 | INFO | Loading customers.csv
+2026-07-15 07:41:35 | INFO | Customers Loaded Successfully | Shape : (1371980, 7)
+2026-07-15 07:41:35 | INFO | Loading articles.csv
+2026-07-15 07:41:35 | INFO | Articles Loaded Successfully | Shape : (105542, 25)
+2026-07-15 07:41:35 | INFO | Loading transactions_train.csv
+2026-07-15 07:42:01 | INFO | Transactions Loaded Successfully | Shape : (28127475, 5)
+2026-07-15 07:42:01 | INFO | Initiating request to Product REST API: https://fakestoreapi.com/products
+2026-07-15 07:42:02 | INFO | API Ingestion Successful | Shape: (20, 7)
+2026-07-15 07:42:02 | INFO | Writing extracted datasets to disk: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\extracted
+2026-07-15 07:43:30 | INFO | REST API data saved: products_api.csv
+2026-07-15 07:43:30 | INFO | All successfully extracted datasets committed to the staging directory.
+2026-07-15 07:43:30 | INFO | ================================================================================
+2026-07-15 07:43:30 | INFO | Task 2 Completed Successfully
+2026-07-15 07:43:30 | INFO | ================================================================================
+2026-07-15 08:32:23 | INFO | ================================================================================
+2026-07-15 08:32:23 | INFO | Task 2 : Data Collection & Ingestion Started
+2026-07-15 08:32:23 | INFO | ================================================================================
+2026-07-15 08:32:23 | INFO | Loading customers.csv
+2026-07-15 08:32:26 | INFO | Customers Loaded Successfully | Shape : (1371980, 7)
+2026-07-15 08:32:26 | INFO | Loading articles.csv
+2026-07-15 08:32:26 | INFO | Articles Loaded Successfully | Shape : (105542, 25)
+2026-07-15 08:32:26 | INFO | Loading transactions_train.csv
+2026-07-15 08:32:52 | INFO | Transactions Loaded Successfully | Shape : (28127475, 5)
+2026-07-15 08:32:52 | INFO | Initiating request to Product REST API: https://fakestoreapi.com/products
+2026-07-15 08:32:53 | INFO | API Ingestion Successful | Shape: (20, 7)
+2026-07-15 08:32:53 | INFO | Writing extracted datasets to disk: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\extracted
+2026-07-15 08:33:26 | INFO | ======================================================================
+2026-07-15 08:33:26 | INFO | Starting Task 2 : Data Ingestion Phase
+2026-07-15 08:33:26 | INFO | ======================================================================
+2026-07-15 08:33:26 | INFO | Connecting to dynamic REST API catalog channel...
+2026-07-15 08:33:27 | INFO | Successfully fetched REST API data.
+2026-07-15 08:33:27 | INFO | Transitioning raw MovieLens data to landing zone staging layer.
+2026-07-15 08:34:16 | INFO | ======================================================================
+2026-07-15 08:34:16 | INFO | Starting Task 2 : Data Ingestion Phase
+2026-07-15 08:34:16 | INFO | ======================================================================
+2026-07-15 08:34:16 | INFO | Connecting to dynamic REST API catalog channel...
+2026-07-15 08:34:17 | INFO | Successfully fetched REST API data.
+2026-07-15 08:34:17 | INFO | Transitioning raw MovieLens data to landing zone staging layer.
+2026-07-15 08:34:17 | INFO | Staged asset: u.user
+2026-07-15 08:34:17 | INFO | Staged asset: u.item
+2026-07-15 08:34:17 | INFO | Staged asset: u.data
+2026-07-15 08:34:17 | INFO | ======================================================================
+2026-07-15 08:34:17 | INFO | Task 2 Completed Successfully
+2026-07-15 08:34:17 | INFO | ======================================================================
+2026-07-15 08:37:34 | INFO | ======================================================================
+2026-07-15 08:37:34 | INFO | Starting Task 2 : Data Ingestion Phase
+2026-07-15 08:37:34 | INFO | ======================================================================
+2026-07-15 08:37:34 | INFO | Connecting to dynamic REST API catalog channel...
+2026-07-15 08:37:36 | INFO | Successfully fetched REST API data.
+2026-07-15 08:37:36 | INFO | Transitioning raw MovieLens data to landing zone staging layer.
+2026-07-15 08:37:36 | INFO | Staged asset: u.user
+2026-07-15 08:37:36 | INFO | Staged asset: u.item
+2026-07-15 08:37:36 | INFO | Staged asset: u.data
+2026-07-15 08:37:36 | INFO | ======================================================================
+2026-07-15 08:37:36 | INFO | Task 2 Completed Successfully
+2026-07-15 08:37:36 | INFO | ======================================================================
+2026-07-15 08:39:20 | INFO | ======================================================================
+2026-07-15 08:39:20 | INFO | Starting Task 2 : Data Ingestion Phase
+2026-07-15 08:39:20 | INFO | ======================================================================
+2026-07-15 08:39:20 | INFO | Connecting to dynamic REST API catalog channel...
+2026-07-15 08:39:20 | INFO | Successfully fetched REST API data.
+2026-07-15 08:39:20 | INFO | Transitioning raw MovieLens data to landing zone staging layer.
+2026-07-15 08:39:20 | INFO | Staged asset: u.user
+2026-07-15 08:39:20 | INFO | Staged asset: u.item
+2026-07-15 08:39:20 | INFO | Staged asset: u.data
+2026-07-15 08:39:20 | INFO | ======================================================================
+2026-07-15 08:39:20 | INFO | Task 2 Completed Successfully
+2026-07-15 08:39:20 | INFO | ======================================================================
+2026-07-15 08:41:12 | INFO | ======================================================================
+2026-07-15 08:41:12 | INFO | Starting Task 2 : Data Ingestion Phase
+2026-07-15 08:41:12 | INFO | ======================================================================
+2026-07-15 08:41:12 | INFO | Connecting to dynamic REST API catalog channel...
+2026-07-15 08:41:13 | INFO | Successfully fetched REST API data.
+2026-07-15 08:41:13 | INFO | Transitioning raw MovieLens data to landing zone staging layer.
+2026-07-15 08:41:13 | INFO | Staged asset: u.user
+2026-07-15 08:41:13 | INFO | Staged asset: u.item
+2026-07-15 08:41:13 | INFO | Staged asset: u.data
+2026-07-15 08:41:13 | INFO | ======================================================================
+2026-07-15 08:41:13 | INFO | Task 2 Completed Successfully
+2026-07-15 08:41:13 | INFO | ======================================================================
+2026-07-15 08:44:21 | INFO | ======================================================================
+2026-07-15 08:44:21 | INFO | Starting Task 2 : Data Ingestion Phase
+2026-07-15 08:44:21 | INFO | ======================================================================
+2026-07-15 08:44:21 | INFO | Connecting to dynamic REST API catalog channel...
+2026-07-15 08:44:22 | INFO | Successfully fetched REST API data.
+2026-07-15 08:44:22 | INFO | Transitioning raw MovieLens data to landing zone staging layer.
+2026-07-15 08:44:22 | INFO | Staged asset: u.user
+2026-07-15 08:44:22 | INFO | Staged asset: u.item
+2026-07-15 08:44:22 | INFO | Staged asset: u.data
+2026-07-15 08:44:22 | INFO | ======================================================================
+2026-07-15 08:44:22 | INFO | Task 2 Completed Successfully
+2026-07-15 08:44:22 | INFO | ======================================================================

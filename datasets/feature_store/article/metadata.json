@@ -1,0 +1,29 @@
+{
+    "entity": "article",
+    "version": "1.0",
+    "updated_at": "2026-07-15 08:44:22",
+    "schema": {
+        "article_id": "int64",
+        "movie_title": "str",
+        "genre_0": "int64",
+        "genre_1": "int64",
+        "genre_2": "int64",
+        "genre_3": "int64",
+        "genre_4": "int64",
+        "genre_5": "int64",
+        "genre_6": "int64",
+        "genre_7": "int64",
+        "genre_8": "int64",
+        "genre_9": "int64",
+        "genre_10": "int64",
+        "genre_11": "int64",
+        "genre_12": "int64",
+        "genre_13": "int64",
+        "genre_14": "int64",
+        "genre_15": "int64",
+        "genre_16": "int64",
+        "genre_17": "int64",
+        "genre_18": "int64"
+    },
+    "row_count": 1682
+}
