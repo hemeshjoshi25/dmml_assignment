@@ -1,7 +1,7 @@
 """
 Task 7 : Feature Store Layer (Optimized)
 
-Author : Hemesh Joshi
+
 Project : RecoMart Recommendation System
 """
 

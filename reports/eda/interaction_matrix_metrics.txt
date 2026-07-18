@@ -1,3 +1,0 @@
-Unique Customers: 943
-Unique Movies: 1682
-Sparsity: 93.6953%

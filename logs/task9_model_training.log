@@ -66,3 +66,51 @@
 2026-07-15 08:56:50 | INFO | ======================================================================
 2026-07-15 08:56:50 | INFO | Task 9 Completed Successfully
 2026-07-15 08:56:50 | INFO | ======================================================================
+2026-07-18 09:41:27 | INFO | ======================================================================
+2026-07-18 09:41:27 | INFO | Starting Task 9 : SVD Model Training & Retrieval Metric Valuation
+2026-07-18 09:41:27 | INFO | ======================================================================
+2026-07-18 09:41:28 | INFO | SVD Metrics Summary:
+2026-07-18 09:41:28 | INFO |  -> Offline Evaluation RMSE : 0.9352
+2026-07-18 09:41:28 | INFO |  -> Retrieval Precision@10  : 0.7116
+2026-07-18 09:41:28 | INFO |  -> Retrieval Recall@10     : 0.5428
+2026-07-18 09:41:28 | INFO | Generating evaluation and retrieval curve charts...
+2026-07-18 09:41:28 | INFO | Saved retrieval curve to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\evaluation_metrics.png
+2026-07-18 09:42:48 | INFO | ======================================================================
+2026-07-18 09:42:48 | INFO | Starting Task 9 : SVD Model Training & Retrieval Metric Valuation
+2026-07-18 09:42:48 | INFO | ======================================================================
+2026-07-18 09:42:49 | INFO | SVD Metrics Summary:
+2026-07-18 09:42:49 | INFO |  -> Offline Evaluation RMSE : 0.9352
+2026-07-18 09:42:49 | INFO |  -> Retrieval Precision@10  : 0.7116
+2026-07-18 09:42:49 | INFO |  -> Retrieval Recall@10     : 0.5428
+2026-07-18 09:42:49 | INFO | Generating evaluation and retrieval curve charts...
+2026-07-18 09:42:50 | INFO | Saved retrieval curve to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\evaluation_metrics.png
+2026-07-18 09:42:51 | INFO | Saved actual vs predicted distribution graph to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\results_visualization.png
+2026-07-18 09:42:51 | INFO | ======================================================================
+2026-07-18 09:42:51 | INFO | Task 9 Completed Successfully
+2026-07-18 09:42:51 | INFO | ======================================================================
+2026-07-18 09:43:06 | INFO | ======================================================================
+2026-07-18 09:43:06 | INFO | Starting Task 9 : SVD Model Training & Retrieval Metric Valuation
+2026-07-18 09:43:06 | INFO | ======================================================================
+2026-07-18 09:43:07 | INFO | SVD Metrics Summary:
+2026-07-18 09:43:07 | INFO |  -> Offline Evaluation RMSE : 0.9352
+2026-07-18 09:43:07 | INFO |  -> Retrieval Precision@10  : 0.7116
+2026-07-18 09:43:07 | INFO |  -> Retrieval Recall@10     : 0.5428
+2026-07-18 09:43:07 | INFO | Generating evaluation and retrieval curve charts...
+2026-07-18 09:43:08 | INFO | Saved retrieval curve to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\evaluation_metrics.png
+2026-07-18 09:43:08 | INFO | Saved actual vs predicted distribution graph to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\results_visualization.png
+2026-07-18 09:43:08 | INFO | ======================================================================
+2026-07-18 09:43:08 | INFO | Task 9 Completed Successfully
+2026-07-18 09:43:08 | INFO | ======================================================================
+2026-07-18 17:52:44 | INFO | ======================================================================
+2026-07-18 17:52:44 | INFO | Starting Task 9 : SVD Model Training & Retrieval Metric Valuation
+2026-07-18 17:52:44 | INFO | ======================================================================
+2026-07-18 17:52:45 | INFO | SVD Metrics Summary:
+2026-07-18 17:52:45 | INFO |  -> Offline Evaluation RMSE : 0.9352
+2026-07-18 17:52:45 | INFO |  -> Retrieval Precision@10  : 0.7116
+2026-07-18 17:52:45 | INFO |  -> Retrieval Recall@10     : 0.5428
+2026-07-18 17:52:45 | INFO | Generating evaluation and retrieval curve charts...
+2026-07-18 17:52:45 | INFO | Saved retrieval curve to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\evaluation_metrics.png
+2026-07-18 17:52:46 | INFO | Saved actual vs predicted distribution graph to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\results_visualization.png
+2026-07-18 17:52:46 | INFO | ======================================================================
+2026-07-18 17:52:46 | INFO | Task 9 Completed Successfully
+2026-07-18 17:52:46 | INFO | ======================================================================

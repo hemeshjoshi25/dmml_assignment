@@ -1,7 +1,6 @@
 """
 Task 10 : Recommendation Engine Inference (MovieLens Edition)
 
-Author : Hemesh Joshi
 """
 
 import sys

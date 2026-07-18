@@ -1,7 +1,7 @@
 """
 Task 6 : Feature Engineering (MovieLens Edition)
 
-Author : Hemesh Joshi
+
 """
 
 import sys

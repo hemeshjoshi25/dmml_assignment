@@ -116,3 +116,45 @@
 2026-07-15 08:56:48 | INFO | ======================================================================
 2026-07-15 08:56:48 | INFO | Task 4 Completed Successfully
 2026-07-15 08:56:48 | INFO | ======================================================================
+2026-07-18 09:41:25 | INFO | ======================================================================
+2026-07-18 09:41:25 | INFO | Starting Task 4 : Data Validation & Automated Chart Processing
+2026-07-18 09:41:25 | INFO | ======================================================================
+2026-07-18 09:41:25 | INFO | Validating dataset: customers from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-18\customers.csv
+2026-07-18 09:41:25 | INFO | Generating customer demographic age distribution plot...
+2026-07-18 09:41:25 | INFO | Saved age distribution graph to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\eda\customer_age_distribution.png
+2026-07-18 09:41:25 | INFO | Validating dataset: articles from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-18\articles.csv
+2026-07-18 09:41:25 | INFO | Validating dataset: transactions from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-18\transactions.csv
+2026-07-18 09:41:25 | INFO | Generating item interaction popularity profile plot...
+2026-07-18 09:41:26 | INFO | Saved item popularity distribution graph to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\eda\item_popularity_distribution.png
+2026-07-18 09:41:26 | INFO | Validation reports exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\data_validation_report.txt
+2026-07-18 09:41:26 | INFO | ======================================================================
+2026-07-18 09:41:26 | INFO | Task 4 Completed Successfully
+2026-07-18 09:41:26 | INFO | ======================================================================
+2026-07-18 09:43:05 | INFO | ======================================================================
+2026-07-18 09:43:05 | INFO | Starting Task 4 : Data Validation & Automated Chart Processing
+2026-07-18 09:43:05 | INFO | ======================================================================
+2026-07-18 09:43:05 | INFO | Validating dataset: customers from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-18\customers.csv
+2026-07-18 09:43:05 | INFO | Generating customer demographic age distribution plot...
+2026-07-18 09:43:05 | INFO | Saved age distribution graph to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\eda\customer_age_distribution.png
+2026-07-18 09:43:05 | INFO | Validating dataset: articles from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-18\articles.csv
+2026-07-18 09:43:05 | INFO | Validating dataset: transactions from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-18\transactions.csv
+2026-07-18 09:43:05 | INFO | Generating item interaction popularity profile plot...
+2026-07-18 09:43:05 | INFO | Saved item popularity distribution graph to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\eda\item_popularity_distribution.png
+2026-07-18 09:43:05 | INFO | Validation reports exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\data_validation_report.txt
+2026-07-18 09:43:05 | INFO | ======================================================================
+2026-07-18 09:43:05 | INFO | Task 4 Completed Successfully
+2026-07-18 09:43:05 | INFO | ======================================================================
+2026-07-18 17:52:42 | INFO | ======================================================================
+2026-07-18 17:52:42 | INFO | Starting Task 4 : Data Validation & Automated Chart Processing
+2026-07-18 17:52:42 | INFO | ======================================================================
+2026-07-18 17:52:42 | INFO | Validating dataset: customers from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\customers\2026-07-18\customers.csv
+2026-07-18 17:52:42 | INFO | Generating customer demographic age distribution plot...
+2026-07-18 17:52:43 | INFO | Saved age distribution graph to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\eda\customer_age_distribution.png
+2026-07-18 17:52:43 | INFO | Validating dataset: articles from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\articles\2026-07-18\articles.csv
+2026-07-18 17:52:43 | INFO | Validating dataset: transactions from E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\datasets\raw\transactions\2026-07-18\transactions.csv
+2026-07-18 17:52:43 | INFO | Generating item interaction popularity profile plot...
+2026-07-18 17:52:43 | INFO | Saved item popularity distribution graph to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\eda\item_popularity_distribution.png
+2026-07-18 17:52:43 | INFO | Validation reports exported to: E:\BITS WILP MTech AI and ML\BITS M Tech Sem 2\DMML Assignment\reports\validation\data_validation_report.txt
+2026-07-18 17:52:43 | INFO | ======================================================================
+2026-07-18 17:52:43 | INFO | Task 4 Completed Successfully
+2026-07-18 17:52:43 | INFO | ======================================================================

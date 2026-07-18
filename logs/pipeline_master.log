@@ -301,3 +301,148 @@
 2026-07-15 08:56:50 | INFO | --------------------------------------------------------------------------------
 2026-07-15 08:56:50 | INFO | Total Pipeline End-to-End Elapsed Processing Execution Time: 3.74s
 2026-07-15 08:56:50 | INFO | ================================================================================
+2026-07-18 09:41:24 | INFO | ================================================================================
+2026-07-18 09:41:24 | INFO |       RECOMART STARTING MASTER PIPELINE ORCHESTRATION CYCLE      
+2026-07-18 09:41:24 | INFO | ================================================================================
+2026-07-18 09:41:24 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 2: Data Ingestion
+2026-07-18 09:41:25 | INFO | [ORCHESTRATOR] ---> Finished Task 2: Data Ingestion cleanly in 0.89s.
+
+2026-07-18 09:41:25 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 3: Raw Data Storage
+2026-07-18 09:41:25 | INFO | [ORCHESTRATOR] ---> Finished Task 3: Raw Data Storage cleanly in 0.14s.
+
+2026-07-18 09:41:25 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 4: Data Validation & Profiling
+2026-07-18 09:41:26 | INFO | [ORCHESTRATOR] ---> Finished Task 4: Data Validation & Profiling cleanly in 0.79s.
+
+2026-07-18 09:41:26 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 5: Data Preparation & EDA
+2026-07-18 09:41:26 | INFO | [ORCHESTRATOR] ---> Finished Task 5: Data Preparation & EDA cleanly in 0.50s.
+
+2026-07-18 09:41:26 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 6: Feature Engineering
+2026-07-18 09:41:26 | INFO | [ORCHESTRATOR] ---> Finished Task 6: Feature Engineering cleanly in 0.18s.
+
+2026-07-18 09:41:26 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 7: Feature Store Layer
+2026-07-18 09:41:27 | INFO | [ORCHESTRATOR] ---> Finished Task 7: Feature Store Layer cleanly in 0.06s.
+
+2026-07-18 09:41:27 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 8: Data Versioning (DVC)
+2026-07-18 09:41:27 | INFO | [ORCHESTRATOR] ---> Finished Task 8: Data Versioning (DVC) cleanly in 0.01s.
+
+2026-07-18 09:41:27 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 9: Model Training (MLflow)
+2026-07-18 09:41:28 | CRITICAL | ================================================================================
+2026-07-18 09:41:28 | CRITICAL | [PIPELINE BREAK] Orchestration aborted abruptly on [Task 9: Model Training (MLflow)]
+2026-07-18 09:41:28 | CRITICAL | Exception Message Root: 'Prediction' object has no attribute 'true_r'
+2026-07-18 09:41:28 | CRITICAL | ================================================================================
+2026-07-18 09:43:04 | INFO | ================================================================================
+2026-07-18 09:43:04 | INFO |       RECOMART STARTING MASTER PIPELINE ORCHESTRATION CYCLE      
+2026-07-18 09:43:04 | INFO | ================================================================================
+2026-07-18 09:43:04 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 2: Data Ingestion
+2026-07-18 09:43:05 | INFO | [ORCHESTRATOR] ---> Finished Task 2: Data Ingestion cleanly in 0.70s.
+
+2026-07-18 09:43:05 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 3: Raw Data Storage
+2026-07-18 09:43:05 | INFO | [ORCHESTRATOR] ---> Finished Task 3: Raw Data Storage cleanly in 0.13s.
+
+2026-07-18 09:43:05 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 4: Data Validation & Profiling
+2026-07-18 09:43:05 | INFO | [ORCHESTRATOR] ---> Finished Task 4: Data Validation & Profiling cleanly in 0.71s.
+
+2026-07-18 09:43:05 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 5: Data Preparation & EDA
+2026-07-18 09:43:06 | INFO | [ORCHESTRATOR] ---> Finished Task 5: Data Preparation & EDA cleanly in 0.48s.
+
+2026-07-18 09:43:06 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 6: Feature Engineering
+2026-07-18 09:43:06 | INFO | [ORCHESTRATOR] ---> Finished Task 6: Feature Engineering cleanly in 0.18s.
+
+2026-07-18 09:43:06 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 7: Feature Store Layer
+2026-07-18 09:43:06 | INFO | [ORCHESTRATOR] ---> Finished Task 7: Feature Store Layer cleanly in 0.05s.
+
+2026-07-18 09:43:06 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 8: Data Versioning (DVC)
+2026-07-18 09:43:06 | INFO | [ORCHESTRATOR] ---> Finished Task 8: Data Versioning (DVC) cleanly in 0.01s.
+
+2026-07-18 09:43:06 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 9: Model Training (MLflow)
+2026-07-18 09:43:08 | INFO | [ORCHESTRATOR] ---> Finished Task 9: Model Training (MLflow) cleanly in 2.00s.
+
+2026-07-18 09:43:08 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 10: Inference Recommendation Engine
+2026-07-18 09:43:09 | INFO | [ORCHESTRATOR] ---> Finished Task 10: Inference Recommendation Engine cleanly in 0.67s.
+
+2026-07-18 09:43:09 | INFO | ================================================================================
+2026-07-18 09:43:09 | INFO |       RECOMART PIPELINE METRICS & PERFORMANCE EXECUTION SUMMARY      
+2026-07-18 09:43:09 | INFO | ================================================================================
+2026-07-18 09:43:09 | INFO |  - Task 2: Data Ingestion                        | Status: SUCCESS  | Time: 0.70s
+2026-07-18 09:43:09 | INFO |  - Task 3: Raw Data Storage                      | Status: SUCCESS  | Time: 0.13s
+2026-07-18 09:43:09 | INFO |  - Task 4: Data Validation & Profiling           | Status: SUCCESS  | Time: 0.71s
+2026-07-18 09:43:09 | INFO |  - Task 5: Data Preparation & EDA                | Status: SUCCESS  | Time: 0.48s
+2026-07-18 09:43:09 | INFO |  - Task 6: Feature Engineering                   | Status: SUCCESS  | Time: 0.18s
+2026-07-18 09:43:09 | INFO |  - Task 7: Feature Store Layer                   | Status: SUCCESS  | Time: 0.05s
+2026-07-18 09:43:09 | INFO |  - Task 8: Data Versioning (DVC)                 | Status: SUCCESS  | Time: 0.01s
+2026-07-18 09:43:09 | INFO |  - Task 9: Model Training (MLflow)               | Status: SUCCESS  | Time: 2.00s
+2026-07-18 09:43:09 | INFO |  - Task 10: Inference Recommendation Engine      | Status: SUCCESS  | Time: 0.67s
+2026-07-18 09:43:09 | INFO | --------------------------------------------------------------------------------
+2026-07-18 09:43:09 | INFO | Total Pipeline End-to-End Elapsed Processing Execution Time: 4.94s
+2026-07-18 09:43:09 | INFO | ================================================================================
+2026-07-18 17:52:41 | INFO | ================================================================================
+2026-07-18 17:52:41 | INFO |       RECOMART STARTING MASTER PIPELINE ORCHESTRATION CYCLE      
+2026-07-18 17:52:41 | INFO | ================================================================================
+2026-07-18 17:52:41 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 2: Data Ingestion
+2026-07-18 17:52:42 | INFO | [ORCHESTRATOR] ---> Finished Task 2: Data Ingestion cleanly in 0.73s.
+
+2026-07-18 17:52:42 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 3: Raw Data Storage
+2026-07-18 17:52:42 | INFO | [ORCHESTRATOR] ---> Finished Task 3: Raw Data Storage cleanly in 0.13s.
+
+2026-07-18 17:52:42 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 4: Data Validation & Profiling
+2026-07-18 17:52:43 | INFO | [ORCHESTRATOR] ---> Finished Task 4: Data Validation & Profiling cleanly in 0.75s.
+
+2026-07-18 17:52:43 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 5: Data Preparation & EDA
+2026-07-18 17:52:44 | INFO | [ORCHESTRATOR] ---> Finished Task 5: Data Preparation & EDA cleanly in 0.49s.
+
+2026-07-18 17:52:44 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 6: Feature Engineering
+2026-07-18 17:52:44 | INFO | [ORCHESTRATOR] ---> Finished Task 6: Feature Engineering cleanly in 0.18s.
+
+2026-07-18 17:52:44 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 7: Feature Store Layer
+2026-07-18 17:52:44 | INFO | [ORCHESTRATOR] ---> Finished Task 7: Feature Store Layer cleanly in 0.06s.
+
+2026-07-18 17:52:44 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 8: Data Versioning (DVC)
+2026-07-18 17:52:44 | INFO | [ORCHESTRATOR] ---> Finished Task 8: Data Versioning (DVC) cleanly in 0.01s.
+
+2026-07-18 17:52:44 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 9: Model Training (MLflow)
+2026-07-18 17:52:46 | INFO | [ORCHESTRATOR] ---> Finished Task 9: Model Training (MLflow) cleanly in 2.05s.
+
+2026-07-18 17:52:46 | INFO | 
+[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: Task 10: Inference Recommendation Engine
+2026-07-18 17:52:47 | INFO | [ORCHESTRATOR] ---> Finished Task 10: Inference Recommendation Engine cleanly in 0.68s.
+
+2026-07-18 17:52:47 | INFO | ================================================================================
+2026-07-18 17:52:47 | INFO |       RECOMART PIPELINE METRICS & PERFORMANCE EXECUTION SUMMARY      
+2026-07-18 17:52:47 | INFO | ================================================================================
+2026-07-18 17:52:47 | INFO |  - Task 2: Data Ingestion                        | Status: SUCCESS  | Time: 0.73s
+2026-07-18 17:52:47 | INFO |  - Task 3: Raw Data Storage                      | Status: SUCCESS  | Time: 0.13s
+2026-07-18 17:52:47 | INFO |  - Task 4: Data Validation & Profiling           | Status: SUCCESS  | Time: 0.75s
+2026-07-18 17:52:47 | INFO |  - Task 5: Data Preparation & EDA                | Status: SUCCESS  | Time: 0.49s
+2026-07-18 17:52:47 | INFO |  - Task 6: Feature Engineering                   | Status: SUCCESS  | Time: 0.18s
+2026-07-18 17:52:47 | INFO |  - Task 7: Feature Store Layer                   | Status: SUCCESS  | Time: 0.06s
+2026-07-18 17:52:47 | INFO |  - Task 8: Data Versioning (DVC)                 | Status: SUCCESS  | Time: 0.01s
+2026-07-18 17:52:47 | INFO |  - Task 9: Model Training (MLflow)               | Status: SUCCESS  | Time: 2.05s
+2026-07-18 17:52:47 | INFO |  - Task 10: Inference Recommendation Engine      | Status: SUCCESS  | Time: 0.68s
+2026-07-18 17:52:47 | INFO | --------------------------------------------------------------------------------
+2026-07-18 17:52:47 | INFO | Total Pipeline End-to-End Elapsed Processing Execution Time: 5.08s
+2026-07-18 17:52:47 | INFO | ================================================================================

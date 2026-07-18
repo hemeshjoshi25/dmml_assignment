@@ -1,13 +1,13 @@
 """
-Run Complete Recommendation Pipeline (Optimized with Telemetry & Error Handling)
+Run Complete Recommendation Pipeline (Optimized with Prefect Orchestration & Telemetry)
 
-Author : Hemesh Joshi
 Project : RecoMart Recommendation System
 """
 
 import sys
 import time
 from pathlib import Path
+from prefect import flow, task
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -28,71 +28,100 @@ from utils.logger import get_logger
 logger = get_logger("pipeline_master.log")
 
 
-class PipelineRunner:
+# --- Define Prefect Tasks for each step ---
 
-    def __init__(self):
-        # Map tasks to their execution class sequences
-        self.tasks = [
-            ("Task 2: Data Ingestion", DataIngestion),
-            ("Task 3: Raw Data Storage", RawDataStorage),
-            ("Task 4: Data Validation & Profiling", DataValidation),
-            ("Task 5: Data Preparation & EDA", DataPreparation),
-            ("Task 6: Feature Engineering", FeatureEngineering),
-            ("Task 7: Feature Store Layer", FeatureStore),
-            ("Task 8: Data Versioning (DVC)", DataVersioning),
-            ("Task 9: Model Training (MLflow)", RecommendationModel),
-            ("Task 10: Inference Recommendation Engine", RecommendationEngine)
-        ]
+@task(name="Data Ingestion")
+def run_data_ingestion():
+    DataIngestion().run()
 
-    def run(self):
-        logger.info("=" * 80)
-        logger.info("      RECOMART STARTING MASTER PIPELINE ORCHESTRATION CYCLE      ")
-        logger.info("=" * 80)
 
-        pipeline_start_time = time.time()
-        telemetry_log = []
+@task(name="Raw Data Storage")
+def run_raw_storage():
+    RawDataStorage().run()
 
-        for task_name, TaskClass in self.tasks:
-            logger.info(f"\n[ORCHESTRATOR] ---> Initializing Lifecycle Sequence: {task_name}")
-            task_start = time.time()
 
-            try:
-                # Instantiates class and executes internal run method loops dynamically
-                instance = TaskClass()
-                instance.run()
+@task(name="Data Validation")
+def run_data_validation():
+    DataValidation().run()
 
-                duration = time.time() - task_start
-                telemetry_log.append((task_name, "SUCCESS", f"{duration:.2f}s"))
-                logger.info(f"[ORCHESTRATOR] ---> Finished {task_name} cleanly in {duration:.2f}s.\n")
 
-            except Exception as e:
-                total_duration = time.time() - pipeline_start_time
-                logger.critical("=" * 80)
-                logger.critical(f"[PIPELINE BREAK] Orchestration aborted abruptly on [{task_name}]")
-                logger.critical(f"Exception Message Root: {str(e)}")
-                logger.critical("=" * 80)
+@task(name="Data Preparation & EDA", refresh_cache=True)
+def run_data_preparation():
+    DataPreparation().run()
 
-                # Print current status summary before termination to allow fast debugging
-                print(f"\n--- Execution State Prior to Failure (Total Up-time: {total_duration:.2f}s) ---")
-                for completed_task, status, execution_time in telemetry_log:
-                    print(f" {completed_task}: {status} ({execution_time})")
-                print(f"❌ {task_name}: FAILED\n")
 
-                sys.exit(1) # Bubble up non-zero error to terminal/orchestrators (Airflow/Bash)
+@task(name="Feature Engineering")
+def run_feature_engineering():
+    FeatureEngineering().run()
 
-        total_pipeline_time = time.time() - pipeline_start_time
 
-        # Output clean structural performance execution tables
-        logger.info("=" * 80)
-        logger.info("      RECOMART PIPELINE METRICS & PERFORMANCE EXECUTION SUMMARY      ")
-        logger.info("=" * 80)
-        for completed_task, status, execution_time in telemetry_log:
-            logger.info(f" - {completed_task:<45} | Status: {status:<8} | Time: {execution_time}")
-        logger.info("-" * 80)
-        logger.info(f"Total Pipeline End-to-End Elapsed Processing Execution Time: {total_pipeline_time:.2f}s")
-        logger.info("=" * 80)
+@task(name="Feature Store Sync")
+def run_feature_store():
+    FeatureStore().run()
+
+
+@task(name="Data Versioning")
+def run_data_versioning():
+    DataVersioning().run()
+
+
+@task(name="Model Training")
+def run_model_training():
+    RecommendationModel().run()
+
+
+@task(name="Recommendation Engine")
+def run_recommendation_engine():
+    RecommendationEngine().run()
+
+
+@task(name="Automated Report Compilation")
+def compile_report():
+    base_path = Path(__file__).resolve().parent
+    required_images = [
+        base_path / "reports" / "validation" / "results_visualization.png",
+        base_path / "reports" / "validation" / "evaluation_metrics.png",
+        base_path / "reports" / "eda" / "customer_age_distribution.png",
+        base_path / "reports" / "eda" / "item_popularity_distribution.png"
+    ]
+
+    missing_assets = [img.name for img in required_images if not img.exists()]
+    if missing_assets:
+        logger.warning(f"Missing visualization plots: {missing_assets}. Report will contain placeholders.")
+    else:
+        logger.info("All required visual plots verified on disk.")
+
+    from generate_complete_documentation import create_final_report
+    create_final_report()
+    logger.info("Master Report 'Complete_Project_Documentation.pdf' compiled successfully.")
+
+
+# --- Define the Master Prefect Flow Orchestrator ---
+
+@flow(name="RecoMart Recommendation Pipeline", description="End-to-End Orchestrated ML Pipeline")
+def recomart_pipeline_flow():
+    logger.info("=" * 80)
+    logger.info("      RECOMART STARTING ORCHESTRATED FLOW LIFECYCLE      ")
+    logger.info("=" * 80)
+
+    # Executing the sequential DAG dependency pipeline
+    run_data_ingestion()
+    run_raw_storage()
+    run_data_validation()
+    run_data_preparation()
+    run_feature_engineering()
+    run_feature_store()
+    run_data_versioning()
+    run_model_training()
+    run_recommendation_engine()
+
+    # Final Documentation Build step
+    compile_report()
+
+    logger.info("=" * 80)
+    logger.info("      RECOMART ORCHESTRATED FLOW COMPLETED SUCCESSFULLY      ")
+    logger.info("=" * 80)
 
 
 if __name__ == "__main__":
-    runner = PipelineRunner()
-    runner.run()
+    recomart_pipeline_flow()

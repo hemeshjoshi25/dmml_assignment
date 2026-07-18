@@ -1,9 +1,9 @@
 """
 Task 5 : Data Preparation & Visual EDA (MovieLens Edition)
 
-Author : Hemesh Joshi
+Project: RecoMart Recommendation System
 """
-
+import os
 import sys
 from pathlib import Path
 import pandas as pd
@@ -27,7 +27,10 @@ class DataPreparation:
 
     def __init__(self):
         PROCESSED_PATH.mkdir(parents=True, exist_ok=True)
-        self.eda_report_path = REPORT_PATH / "eda"
+
+        # Enforce absolute project workspace paths
+        self.workspace_root = Path(__file__).resolve().parents[1]
+        self.eda_report_path = self.workspace_root / "reports" / "eda"
         self.eda_report_path.mkdir(parents=True, exist_ok=True)
 
     def preprocess_customers(self):
@@ -61,43 +64,76 @@ class DataPreparation:
         df.to_csv(PROCESSED_PATH / "transactions.csv", index=False)
         return df
 
-    def generate_eda_plots(self, cust, art, trans):
-        logger.info("Generating and saving MovieLens EDA plots.")
-        try:
-            sns.set_theme(style="whitegrid")
+    def build_and_save_interaction_matrix(self, trans_df):
+        """Generates the User-Item Interaction Matrix and metadata summary."""
+        logger.info("Building User-Item Interaction Matrix...")
 
-            # Plot 1: User Age Distribution
-            plt.figure(figsize=(8, 5))
-            sns.histplot(cust['age'], bins=20, kde=True, color='purple')
-            plt.title('MovieLens User Age Distribution')
-            plt.xlabel('Age')
-            plt.ylabel('Count')
-            plt.savefig(self.eda_report_path / "customer_age_distribution.png", bbox_inches='tight')
-            plt.close()
+        # Compute exact profile metrics
+        unique_customers = trans_df['customer_id'].nunique()
+        unique_movies = trans_df['article_id'].nunique()
 
-            # Plot 2: Top 10 Most Popular Movies (Ratings Count)
-            plt.figure(figsize=(10, 5))
-            top_movies = trans['article_id'].value_counts().head(10).reset_index()
-            top_movies.columns = ['article_id', 'interaction_count']
-            top_movies = top_movies.merge(art[['article_id', 'movie_title']], on='article_id', how='left')
+        total_possible_interactions = unique_customers * unique_movies
+        actual_interactions = trans_df.groupby(['customer_id', 'article_id']).size().shape[0]
+        sparsity = (1 - (actual_interactions / total_possible_interactions)) * 100
 
-            sns.barplot(data=top_movies, x='interaction_count', y='movie_title', palette='magma')
-            plt.title('Top 10 Most Rated Movies')
-            plt.xlabel('Number of Ratings')
-            plt.ylabel('Movie Title')
-            plt.savefig(self.eda_report_path / "item_popularity_distribution.png", bbox_inches='tight')
-            plt.close()
+        # Log metrics to console and logfile
+        logger.info(f"Unique Customers: {unique_customers}")
+        logger.info(f"Unique Movies: {unique_movies}")
+        logger.info(f"Sparsity: {sparsity:.4f}%")
 
-            # 3. Save Matrix Sparsity
-            num_users = trans['customer_id'].nunique()
-            num_items = trans['article_id'].nunique()
-            sparsity = (1 - (len(trans) / (num_users * num_items))) * 100
+        # Build the sparse matrix pivot structure
+        interaction_matrix = trans_df.groupby(['customer_id', 'article_id'])['rating'].max().unstack(fill_value=0)
 
-            with open(self.eda_report_path / "interaction_matrix_metrics.txt", "w") as f:
-                f.write(f"Unique Customers: {num_users}\nUnique Movies: {num_items}\nSparsity: {sparsity:.4f}%\n")
+        matrix_path = PROCESSED_PATH / "interaction_matrix_movies.txt"
 
-        except Exception as e:
-            logger.error(f"Visual EDA generation failed: {str(e)}")
+        # Write metadata headers at the top of the file followed by the matrix matrix entries
+        with open(matrix_path, "w", encoding="utf-8") as f:
+            f.write(f"# Interaction Matrix Profile metadata\n")
+            f.write(f"# Unique Customers: {unique_customers}\n")
+            f.write(f"# Unique Movies: {unique_movies}\n")
+            f.write(f"# Sparsity: {sparsity:.4f}%\n\n")
+
+        interaction_matrix.to_csv(matrix_path, sep='\t', mode='a')
+        logger.info(f"✅ Interaction matrix profile successfully saved to: {matrix_path}")
+
+    def generate_eda_plots(self, cust_df, art_df, trans_df):
+        """Generates explicit distribution metrics and saves plots for the document engine."""
+        logger.info("Generating Visual EDA Artifacts...")
+        self.eda_report_path.mkdir(parents=True, exist_ok=True)
+
+        # Chart 1: User Age Distribution
+        plt.figure(figsize=(7, 4))
+        sns.set_theme(style="whitegrid")
+        sns.histplot(cust_df['age'], bins=30, kde=True, color='#2C5282')
+        plt.title("MovieLens User Age Distribution", fontsize=12, fontweight='bold', pad=10)
+        plt.xlabel("Age", fontsize=10)
+        plt.ylabel("Count", fontsize=10)
+        plt.tight_layout()
+
+        age_plot_path = self.eda_report_path / "customer_age_distribution.png"
+        if age_plot_path.exists():
+            try: os.remove(age_plot_path)
+            except Exception: pass
+        plt.savefig(str(age_plot_path), dpi=150)
+        plt.close()
+
+        # Chart 2: Item Popularity Distribution
+        plt.figure(figsize=(7, 4))
+        movie_counts = trans_df['article_id'].value_counts()
+        sns.histplot(movie_counts, bins=30, kde=True, color='#1A365D')
+        plt.title("Movie Item Popularity Distribution", fontsize=12, fontweight='bold', pad=10)
+        plt.xlabel("Number of Ratings per Movie", fontsize=10)
+        plt.ylabel("Count of Movies", fontsize=10)
+        plt.tight_layout()
+
+        pop_plot_path = self.eda_report_path / "item_popularity_distribution.png"
+        if pop_plot_path.exists():
+            try: os.remove(pop_plot_path)
+            except Exception: pass
+        plt.savefig(str(pop_plot_path), dpi=150)
+        plt.close()
+
+        logger.info(f"✅ Both EDA plots successfully saved to: {self.eda_report_path}")
 
     def run(self):
         logger.info("=" * 70)
@@ -108,6 +144,7 @@ class DataPreparation:
         art = self.preprocess_articles()
         trans = self.preprocess_transactions()
 
+        self.build_and_save_interaction_matrix(trans)
         self.generate_eda_plots(cust, art, trans)
 
         logger.info("=" * 70)

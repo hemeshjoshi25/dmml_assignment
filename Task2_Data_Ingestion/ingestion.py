@@ -1,12 +1,12 @@
 """
-Task 2 : Data Ingestion (MovieLens Edition)
+Task 2 : Data Ingestion (MovieLens Edition - Scheduled Ingestion Support)
 
-Author : Hemesh Joshi
 """
 
 import sys
 from pathlib import Path
 import shutil
+import time
 import requests
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -67,8 +67,9 @@ class DataIngestion:
             shutil.copy2(api_file, EXTRACTED_PATH / "products_api.csv")
 
     def run(self):
+        """Executes a single, synchronous ingestion pass (standard workflow)."""
         logger.info("=" * 70)
-        logger.info("Starting Task 2 : Data Ingestion Phase")
+        logger.info("Starting Task 2 : Data Ingestion Pass")
         logger.info("=" * 70)
 
         self.fetch_api_data()
@@ -78,6 +79,37 @@ class DataIngestion:
         logger.info("Task 2 Completed Successfully")
         logger.info("=" * 70)
 
+    def run_periodic(self, interval_seconds=86400):
+        """Runs the data ingestion engine continuously at a fixed time interval.
+
+        Args:
+            interval_seconds (int): Wait time between ingestion cycles. Defaults to 86400 (24 hours).
+        """
+        logger.info("=" * 70)
+        logger.info(f"Starting Task 2 Daemon Mode: Ingestion Loop Every {interval_seconds}s")
+        logger.info("=" * 70)
+
+        try:
+            while True:
+                logger.info("Triggering scheduled periodic ingestion execution cycle...")
+
+                self.fetch_api_data()
+                self.copy_to_extracted()
+
+                logger.info(f"Ingestion cycle complete. Sleeping for {interval_seconds} seconds...")
+                time.sleep(interval_seconds)
+
+        except KeyboardInterrupt:
+            logger.info("Periodic ingestion daemon halted manually via user interrupt.")
+        except Exception as e:
+            logger.critical(f"Daemon crashed with unhandled pipeline runtime exception: {str(e)}")
+
+        logger.info("=" * 70)
+        logger.info("Task 2 Daemon Process Terminated")
+        logger.info("=" * 70)
+
 
 if __name__ == "__main__":
-    DataIngestion().run()
+    # Choose execution paradigm based on your current validation requirements
+    # To run as a continuous daily loader background script, toggle to: DataIngestion().run_periodic()
+    DataIngestion().run_periodic()

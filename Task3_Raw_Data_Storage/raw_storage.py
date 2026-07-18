@@ -1,7 +1,6 @@
 """
 Task 3 : Raw Data Storage (MovieLens Edition)
 
-Author : Hemesh Joshi
 """
 
 import sys

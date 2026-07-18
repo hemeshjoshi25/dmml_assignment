@@ -1,7 +1,6 @@
 """
 Task 8 : Data Versioning & Local Snapshot Store (MovieLens Safe Edition)
 
-Author : Hemesh Joshi
 """
 
 import sys
